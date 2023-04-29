@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.fnt_weight {
+  font-weight: bold;
+}
+
+#navbar_header .page .ul li {
+  list-style: none;
+  padding: 0px 15px;
+}
+
+#item {
+  background-image: url(/img/11.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+#item .content {
+  padding-top: 100px;
+}
+
+#redefine {
+  padding-bottom: 100px;
+}
+#redefine .box_card {
+  text-align: center;
+}
+#redefine .box_card h1 {
+  font-size: 7em;
+  font-weight: 700;
+  color: rgb(234, 17, 12);
+  text-shadow: -15px 0px 1px black;
+  transition: all 0.3s linear;
+}
+#redefine .box_card h1:hover {
+  color: black;
+  text-shadow: 0px 0px 1px coral;
+}
+#redefine .box_card p {
+  color: grey;
+}
+
+#every {
+  background-image: url(/img/2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+#every .every_content {
+  padding-top: 100px;
+}
+#every .every_content .every_text h1 {
+  font-size: 5em;
+  padding-bottom: 10px;
+}
+
+#testimonial .text_img {
+  text-align: center;
+  padding-bottom: 100px;
+}
+#testimonial .text_img .img_6 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+#testimonial .item_img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+}
+#testimonial .item_img:hover {
+  transform: scale(1.1);
+}
+
+#worket {
+  padding: 100px 0;
+}
+#worket .google {
+  background-color: rgba(244, 238, 238, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.9s;
+}
+#worket .google:hover .blue {
+  color: #4C8CF2;
+}
+#worket .google:hover .red {
+  color: #E05236;
+}
+#worket .google:hover .yellow {
+  color: #EEB924;
+}
+#worket .google:hover .green {
+  color: #44AC58;
+}
+#worket .algolia {
+  background-color: rgba(244, 238, 238, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .algolia:hover {
+  color: rgb(64, 64, 207);
+}
+#worket .android {
+  background-color: rgba(244, 238, 238, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .android:hover {
+  color: rgb(88, 207, 64);
+}
+#worket .envato {
+  background-color: rgba(241, 237, 237, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .envato:hover {
+  color: black;
+}
+#worket .envato:hover span {
+  color: rgb(88, 207, 64);
+}
+#worket .linked {
+  background-color: rgba(241, 237, 237, 0.319);
+  color: black;
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .linked span {
+  padding: 0 3px;
+  background-color: grey;
+  border-radius: 3px;
+  color: white;
+}
+#worket .linked:hover {
+  color: black;
+}
+#worket .linked:hover span {
+  background-color: #4C8CF2;
+}
+#worket .netlifix {
+  background-color: rgba(244, 238, 238, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .netlifix:hover {
+  color: rgb(182, 21, 21);
+}
+#worket .microsoft {
+  background-color: rgba(244, 238, 238, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .microsoft:hover {
+  color: rgb(64, 64, 207);
+}
+#worket .drimmer {
+  background-color: rgba(244, 238, 238, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .drimmer:hover {
+  color: rgba(206, 119, 87, 0.808);
+}
+#worket .shipable {
+  background-color: rgba(244, 238, 238, 0.319);
+  color: rgba(128, 128, 128, 0.851);
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .shipable:hover {
+  color: rgba(210, 65, 91, 0.808);
+}
+#worket .kebanx {
+  background-color: rgba(241, 237, 237, 0.319);
+  color: black;
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .kebanx span {
+  padding: 0 3px;
+  background-color: grey;
+  border-radius: 3px;
+  color: white;
+}
+#worket .kebanx:hover {
+  color: rgb(15, 50, 134);
+}
+#worket .kebanx:hover span {
+  background-color: #4C8CF2;
+}
+#worket .import {
+  background-color: rgba(241, 237, 237, 0.319);
+  color: black;
+  padding: 15px;
+  transition: all 0.5s;
+}
+#worket .import span {
+  padding: 3px 6px;
+  background-color: grey;
+  border-radius: 50%;
+  color: white;
+}
+#worket .import:hover {
+  color: black;
+}
+#worket .import:hover span {
+  background-color: #f24cec;
+}
+
+#our_work {
+  padding-bottom: 50px;
+}
+#our_work .box_img {
+  background-image: url(/img/17.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 50px;
+}
+#our_work .our-content {
+  padding: 50px;
+  padding-bottom: 70px;
+}
+
+#latest {
+  background: black;
+  padding: 70px 0;
+}
+#latest .input-email {
+  width: 70%;
+  padding: 7px 20px;
+}
+
+#footer h3 {
+  padding-bottom: 20px;
+}
+#footer h5 {
+  padding-bottom: 15px;
+}
+#footer .text_p {
+  color: grey;
+}
+
+@media screen and (max-width: 576px) {
+  #every .every_content .every_text h1 {
+    font-size: 3em;
+  }
+}/*# sourceMappingURL=stile.css.map */

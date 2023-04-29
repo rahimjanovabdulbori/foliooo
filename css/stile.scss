@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.fnt_weight {
+    font-weight: bold;
+}
+
+#navbar_header {
+    .page {
+        .ul {
+            li {
+                list-style: none;
+                padding: 0px 15px;
+            }
+        }
+    }
+}
+
+#item {
+    background-image: url(/img/11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    .content {
+        padding-top: 100px;
+    }
+}
+
+#redefine {
+    padding-bottom: 100px;
+
+    .box_card {
+        text-align: center;
+
+        h1 {
+
+            font-size: 7em;
+            font-weight: 700;
+            color: rgb(234, 17, 12);
+            text-shadow: -15px 0px 1px black;
+            transition: all .3s linear;
+
+            &:hover {
+                color: black;
+                text-shadow: 0px 0px 1px coral;
+            }
+        }
+
+        p {
+            color: grey;
+        }
+    }
+}
+
+#every {
+    background-image: url(/img/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 200px;
+
+    .every_content {
+        padding-top: 100px;
+
+        .every_text {
+
+            h1 {
+                font-size: 5em;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+#testimonial {
+    .text_img {
+        text-align: center;
+        padding-bottom: 100px;
+
+        .img_6 {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+
+        }
+    }
+
+    .item_img {
+        width: 100%;
+        height: 100%;
+        transition: all .3s linear;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+#worket {
+    padding: 100px 0;
+
+    .google {
+        background-color: rgba(244, 238, 238, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .9s;
+
+        &:hover {
+            .blue {
+                color: #4C8CF2;
+            }
+
+            .red {
+                color: #E05236;
+            }
+
+            .yellow {
+                color: #EEB924;
+            }
+
+            .green {
+                color: #44AC58;
+            }
+        }
+    }
+
+    .algolia {
+        background-color: rgba(244, 238, 238, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .5s;
+
+        &:hover {
+            color: rgb(64, 64, 207);
+        }
+    }
+
+    .android {
+        background-color: rgba(244, 238, 238, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .5s;
+
+        &:hover {
+            color: rgb(88, 207, 64);
+        }
+    }
+
+    .envato {
+        background-color: rgba(241, 237, 237, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .5s;
+
+        &:hover {
+            color: black;
+
+            span {
+                color: rgb(88, 207, 64);
+            }
+
+        }
+    }
+
+    .linked {
+        background-color: rgba(241, 237, 237, 0.319);
+        color: black;
+        padding: 15px;
+        transition: all .5s;
+
+        span {
+            padding: 0 3px;
+            background-color: grey;
+            border-radius: 3px;
+            color: white;
+        }
+
+        &:hover {
+            color: black;
+
+            span {
+                background-color: #4C8CF2;
+
+            }
+
+        }
+    }
+
+    .netlifix {
+        background-color: rgba(244, 238, 238, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .5s;
+
+        &:hover {
+            color: rgb(182, 21, 21);
+        }
+    }
+
+    .microsoft {
+        background-color: rgba(244, 238, 238, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .5s;
+
+        &:hover {
+            color: rgb(64, 64, 207);
+        }
+    }
+
+    .drimmer {
+        background-color: rgba(244, 238, 238, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .5s;
+
+        &:hover {
+            color: rgba(206, 119, 87, 0.808);
+
+        }
+    }
+
+    .shipable {
+        background-color: rgba(244, 238, 238, 0.319);
+        color: rgba(128, 128, 128, 0.851);
+        padding: 15px;
+        transition: all .5s;
+
+        &:hover {
+            color: rgba(210, 65, 91, 0.808);
+
+        }
+    }
+
+    .kebanx {
+        background-color: rgba(241, 237, 237, 0.319);
+        color: black;
+        padding: 15px;
+        transition: all .5s;
+
+        span {
+            padding: 0 3px;
+            background-color: grey;
+            border-radius: 3px;
+            color: white;
+        }
+
+        &:hover {
+            color: rgb(15, 50, 134);
+
+            span {
+                background-color: #4C8CF2;
+
+            }
+
+        }
+    }
+
+    .import {
+        background-color: rgba(241, 237, 237, 0.319);
+        color: black;
+        padding: 15px;
+        transition: all .5s;
+
+        span {
+            padding: 3px 6px;
+            background-color: grey;
+            border-radius: 50%;
+            color: white;
+        }
+
+        &:hover {
+            color: black;
+
+            span {
+                background-color: #f24cec;
+
+            }
+
+        }
+    }
+}
+
+#our_work {
+    padding-bottom:50px;
+    .box_img {
+        background-image: url(/img/17.jpeg);
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        color: #fff;
+        padding: 50px;
+   
+    }
+    .our-content{
+        padding: 50px;
+        padding-bottom: 70px;
+    }
+}
+#latest{
+    background:black;
+    padding: 70px 0;
+    .input-email{
+        width: 70%;
+        padding: 7px 20px;
+    }
+   
+}
+#footer{
+    h3{
+        padding-bottom: 20px;
+    }
+    h5{
+        padding-bottom:15px;
+    }
+    .text_p{
+        color: grey;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:776px) {}
+
+@media screen and (max-width:576px) {
+    #every {
+        .every_content {
+            .every_text {
+                h1 {
+                    font-size: 3em;
+                }
+            }
+        }
+    }
+}
+
+// <text-shadow>px da beriladi 1-px yonga 2-px pasga 3-px text hiraligi rang
